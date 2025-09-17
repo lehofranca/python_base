@@ -124,7 +124,7 @@ except ImportError as e:
 try:
     import matematica_avancada
 except ImportError as e:
-    print(" Erro de importação", e)
+    print("Erro de importação", e)
     
 # Erro de importação No module named 'matematica_avancada'
 
@@ -167,4 +167,6 @@ except AttributeError as e:
     meu_carro.cor = "Não definido"
     print("Cor do carro:, meu_carro.cor")
     
-# Erro de atributo: 'Carro' object has no attribute 'cor'                                  
+# # Erro de atributo: 'Carro' object has no attribute 'cor'
+# Atributo 'cor' não existe. Usando valor padrão: 'Não definido'
+# Cor do carro:, meu_carro.cor                             
